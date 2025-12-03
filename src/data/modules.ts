@@ -13,60 +13,57 @@ export interface Module {
 
 export const modules: Module[] = [
   {
-    id: "earth",
-    title: "Terra",
-    description: "Nosso planeta azul e lar de toda vida conhecida",
-    icon: "🌍",
-    image: "earth",
+    id: "descobrimento",
+    title: "Descobrimento do Brasil",
+    description: "A chegada dos portugueses em 1500 e o início da colonização",
+    icon: "⛵",
+    image: "descobrimento",
     content: {
-      introduction: "A Terra é o terceiro planeta do Sistema Solar e o único conhecido por abrigar vida. Com aproximadamente 4,5 bilhões de anos, nosso planeta possui condições únicas que permitem a existência de água líquida e uma atmosfera rica em oxigênio.",
+      introduction: "Em 22 de abril de 1500, uma frota portuguesa comandada por Pedro Álvares Cabral chegou ao litoral brasileiro, marcando o início oficial da história colonial do Brasil. A expedição, que tinha como destino as Índias, avistou o Monte Pascoal e desembarcou em uma região que hoje pertence ao estado da Bahia.",
       keyPoints: [
-        "Diâmetro: 12.742 km",
-        "Distância do Sol: 149,6 milhões de km",
-        "Período orbital: 365,25 dias",
-        "Satélite natural: 1 (Lua)",
-        "Atmosfera: 78% nitrogênio, 21% oxigênio",
-        "70% da superfície coberta por água"
+        "Pedro Álvares Cabral comandava uma frota de 13 navios",
+        "O primeiro contato foi com os índios Tupiniquins",
+        "Pero Vaz de Caminha escreveu a famosa Carta do Descobrimento",
+        "A terra foi inicialmente chamada de Ilha de Vera Cruz",
+        "O pau-brasil foi o primeiro produto explorado comercialmente"
       ],
-      funFact: "A Terra é o único planeta do Sistema Solar que não foi nomeado em homenagem a um deus grego ou romano!"
+      funFact: "A Carta de Pero Vaz de Caminha é considerada a 'certidão de nascimento' do Brasil e descreve detalhadamente os indígenas, a fauna e a flora encontradas!"
     }
   },
   {
-    id: "mars",
-    title: "Marte",
-    description: "O planeta vermelho e possível futuro lar da humanidade",
-    icon: "🔴",
-    image: "mars",
+    id: "imperio",
+    title: "Brasil Império",
+    description: "A independência e o período imperial brasileiro (1822-1889)",
+    icon: "👑",
+    image: "imperio",
     content: {
-      introduction: "Marte é o quarto planeta a partir do Sol e o segundo menor do Sistema Solar. Conhecido como 'Planeta Vermelho' devido ao óxido de ferro em sua superfície, Marte tem sido alvo de intensas explorações espaciais.",
+      introduction: "O Brasil Império foi o período da história brasileira que se estendeu de 1822 a 1889. Iniciou-se com a proclamação da Independência por Dom Pedro I e terminou com a Proclamação da República. Durante esse período, o Brasil foi governado por dois imperadores: Dom Pedro I e Dom Pedro II.",
       keyPoints: [
-        "Diâmetro: 6.779 km",
-        "Distância do Sol: 227,9 milhões de km",
-        "Período orbital: 687 dias terrestres",
-        "Satélites naturais: 2 (Fobos e Deimos)",
-        "Temperatura média: -63°C",
-        "Possui as maiores montanhas do Sistema Solar"
+        "A Independência foi proclamada em 7 de setembro de 1822",
+        "Dom Pedro I foi o primeiro imperador do Brasil",
+        "Dom Pedro II governou por 49 anos, o mais longo reinado",
+        "A Lei Áurea aboliu a escravidão em 1888",
+        "O café se tornou o principal produto de exportação"
       ],
-      funFact: "Um dia em Marte dura quase o mesmo tempo que na Terra: 24 horas e 37 minutos!"
+      funFact: "Dom Pedro II era um grande intelectual e cientista amador. Ele correspondeu-se com cientistas famosos como Louis Pasteur e Graham Bell, e foi o segundo chefe de estado a ter uma linha telefônica!"
     }
   },
   {
-    id: "jupiter",
-    title: "Júpiter",
-    description: "O gigante gasoso e maior planeta do Sistema Solar",
-    icon: "🪐",
-    image: "jupiter",
+    id: "republica",
+    title: "Proclamação da República",
+    description: "O fim da monarquia e o nascimento da República em 1889",
+    icon: "🏛️",
+    image: "republica",
     content: {
-      introduction: "Júpiter é o maior planeta do Sistema Solar, com uma massa maior que a de todos os outros planetas combinados. Este gigante gasoso possui uma famosa tempestade chamada Grande Mancha Vermelha, que dura há centenas de anos.",
+      introduction: "A Proclamação da República Brasileira ocorreu em 15 de novembro de 1889, quando um golpe militar liderado pelo Marechal Deodoro da Fonseca depôs o Imperador Dom Pedro II. Este evento marcou o fim do regime monárquico e o início do período republicano no Brasil.",
       keyPoints: [
-        "Diâmetro: 139.820 km",
-        "Distância do Sol: 778,5 milhões de km",
-        "Período orbital: 11,86 anos terrestres",
-        "Satélites naturais: 95 luas conhecidas",
-        "Composição: principalmente hidrogênio e hélio",
-        "A Grande Mancha Vermelha é uma tempestade maior que a Terra"
+        "Marechal Deodoro da Fonseca foi o primeiro presidente",
+        "A bandeira republicana foi inspirada no positivismo",
+        "A família imperial foi exilada para a Europa",
+        "A primeira constituição republicana foi promulgada em 1891",
+        "O lema 'Ordem e Progresso' foi adotado na bandeira"
       ],
-      funFact: "Júpiter tem um campo magnético tão forte que poderia ser detectado da Terra, mesmo sem instrumentos!"
+      funFact: "A Proclamação da República foi tão pacífica que muitos brasileiros só souberam da mudança de regime dias depois! Dom Pedro II, ao saber do golpe, disse: 'Se é assim, será a minha aposentadoria'."
     }
   }
 ];
