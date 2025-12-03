@@ -9,108 +9,128 @@ export interface Question {
 export const quizQuestions: Question[] = [
   {
     id: 1,
-    question: "Quem comandou a expedição portuguesa que chegou ao Brasil em 1500?",
-    options: ["Vasco da Gama", "Pedro Álvares Cabral", "Cristóvão Colombo", "Fernão de Magalhães"],
-    correctAnswer: 1,
-    explanation: "Pedro Álvares Cabral comandou a frota de 13 navios que chegou ao Brasil em 22 de abril de 1500."
+    question: "Qual é o maior planeta do Sistema Solar?",
+    options: ["Terra", "Marte", "Júpiter", "Saturno"],
+    correctAnswer: 2,
+    explanation: "Júpiter é o maior planeta do Sistema Solar, com um diâmetro de aproximadamente 139.820 km."
   },
   {
     id: 2,
-    question: "Qual foi o primeiro nome dado ao Brasil pelos portugueses?",
-    options: ["Terra de Santa Cruz", "Ilha de Vera Cruz", "Terra Brasilis", "Nova Lusitânia"],
+    question: "Quantos satélites naturais a Terra possui?",
+    options: ["Nenhum", "1", "2", "3"],
     correctAnswer: 1,
-    explanation: "Inicialmente, a terra foi chamada de Ilha de Vera Cruz, depois Terra de Santa Cruz, e finalmente Brasil."
+    explanation: "A Terra possui apenas um satélite natural: a Lua."
   },
   {
     id: 3,
-    question: "Em que data foi proclamada a Independência do Brasil?",
-    options: ["15 de novembro de 1889", "7 de setembro de 1822", "22 de abril de 1500", "13 de maio de 1888"],
+    question: "Por que Marte é conhecido como 'Planeta Vermelho'?",
+    options: [
+      "Devido à sua temperatura quente",
+      "Devido ao óxido de ferro em sua superfície",
+      "Devido a suas tempestades",
+      "Devido à sua atmosfera"
+    ],
     correctAnswer: 1,
-    explanation: "A Independência foi proclamada por Dom Pedro I às margens do rio Ipiranga em 7 de setembro de 1822."
+    explanation: "Marte tem uma cor avermelhada devido à presença de óxido de ferro (ferrugem) em sua superfície."
   },
   {
     id: 4,
-    question: "Quem foi o primeiro imperador do Brasil?",
-    options: ["Dom Pedro II", "Dom João VI", "Dom Pedro I", "Marechal Deodoro"],
-    correctAnswer: 2,
-    explanation: "Dom Pedro I foi o primeiro imperador do Brasil, governando de 1822 a 1831."
+    question: "Qual é a distância aproximada da Terra ao Sol?",
+    options: ["100 milhões de km", "149,6 milhões de km", "200 milhões de km", "250 milhões de km"],
+    correctAnswer: 1,
+    explanation: "A Terra está a aproximadamente 149,6 milhões de quilômetros do Sol, uma distância conhecida como Unidade Astronômica (UA)."
   },
   {
     id: 5,
-    question: "Qual lei aboliu oficialmente a escravidão no Brasil?",
-    options: ["Lei do Ventre Livre", "Lei dos Sexagenários", "Lei Áurea", "Lei Eusébio de Queirós"],
+    question: "Quantos dias terrestres um ano marciano possui?",
+    options: ["365 dias", "500 dias", "687 dias", "800 dias"],
     correctAnswer: 2,
-    explanation: "A Lei Áurea, assinada pela Princesa Isabel em 13 de maio de 1888, aboliu a escravidão no Brasil."
+    explanation: "Um ano em Marte dura aproximadamente 687 dias terrestres."
   },
   {
     id: 6,
-    question: "Quem escreveu a famosa Carta do Descobrimento?",
-    options: ["Pedro Álvares Cabral", "Pero Vaz de Caminha", "Duarte Pacheco Pereira", "Américo Vespúcio"],
+    question: "Qual é a composição principal de Júpiter?",
+    options: [
+      "Rochas e metais",
+      "Hidrogênio e hélio",
+      "Nitrogênio e oxigênio",
+      "Metano e amônia"
+    ],
     correctAnswer: 1,
-    explanation: "Pero Vaz de Caminha, escrivão da frota, escreveu a carta que é considerada a 'certidão de nascimento' do Brasil."
+    explanation: "Júpiter é composto principalmente de hidrogênio e hélio, sendo um gigante gasoso."
   },
   {
     id: 7,
-    question: "Qual produto foi o principal motivo da colonização inicial do Brasil?",
-    options: ["Ouro", "Café", "Pau-brasil", "Cana-de-açúcar"],
+    question: "Qual porcentagem da superfície da Terra é coberta por água?",
+    options: ["50%", "60%", "70%", "80%"],
     correctAnswer: 2,
-    explanation: "O pau-brasil foi o primeiro produto explorado comercialmente, dando nome ao país."
+    explanation: "Aproximadamente 70% da superfície da Terra é coberta por água."
   },
   {
     id: 8,
-    question: "Por quantos anos Dom Pedro II governou o Brasil?",
-    options: ["29 anos", "39 anos", "49 anos", "59 anos"],
+    question: "Quantas luas Marte possui?",
+    options: ["Nenhuma", "1", "2", "4"],
     correctAnswer: 2,
-    explanation: "Dom Pedro II governou por 49 anos (1840-1889), o mais longo reinado da história do Brasil."
+    explanation: "Marte possui duas pequenas luas chamadas Fobos e Deimos."
   },
   {
     id: 9,
-    question: "Quem proclamou a República no Brasil?",
-    options: ["Dom Pedro II", "Princesa Isabel", "Marechal Deodoro da Fonseca", "Floriano Peixoto"],
+    question: "O que é a Grande Mancha Vermelha de Júpiter?",
+    options: [
+      "Um vulcão ativo",
+      "Uma cratera gigante",
+      "Uma tempestade permanente",
+      "Um oceano de lava"
+    ],
     correctAnswer: 2,
-    explanation: "O Marechal Deodoro da Fonseca liderou o golpe militar que proclamou a República em 15 de novembro de 1889."
+    explanation: "A Grande Mancha Vermelha é uma tempestade anticiclônica gigante que existe há séculos e é maior que a Terra."
   },
   {
     id: 10,
-    question: "Qual é o significado do lema 'Ordem e Progresso' na bandeira brasileira?",
-    options: ["Homenagem aos imperadores", "Influência do positivismo", "Referência à independência", "Símbolo militar"],
-    correctAnswer: 1,
-    explanation: "O lema foi inspirado no positivismo de Auguste Comte: 'O amor por princípio, a ordem por base, o progresso por fim'."
+    question: "Qual é a temperatura média em Marte?",
+    options: ["0°C", "-20°C", "-63°C", "-100°C"],
+    correctAnswer: 2,
+    explanation: "A temperatura média em Marte é de aproximadamente -63°C, muito mais fria que a Terra."
   },
   {
     id: 11,
-    question: "Em que ano a família real portuguesa chegou ao Brasil fugindo de Napoleão?",
-    options: ["1808", "1822", "1500", "1889"],
-    correctAnswer: 0,
-    explanation: "A família real chegou ao Brasil em 1808, fugindo da invasão napoleônica em Portugal."
+    question: "Quantos planetas existem no Sistema Solar?",
+    options: ["7", "8", "9", "10"],
+    correctAnswer: 1,
+    explanation: "Atualmente reconhecemos 8 planetas no Sistema Solar, desde que Plutão foi reclassificado como planeta anão em 2006."
   },
   {
     id: 12,
-    question: "Qual foi o principal produto de exportação durante o Segundo Reinado?",
-    options: ["Açúcar", "Borracha", "Café", "Algodão"],
-    correctAnswer: 2,
-    explanation: "O café foi o principal produto de exportação durante o Segundo Reinado, especialmente no Vale do Paraíba."
+    question: "Qual é a composição principal da atmosfera terrestre?",
+    options: [
+      "Oxigênio e hidrogênio",
+      "Nitrogênio e oxigênio",
+      "Dióxido de carbono e metano",
+      "Hélio e hidrogênio"
+    ],
+    correctAnswer: 1,
+    explanation: "A atmosfera da Terra é composta principalmente de nitrogênio (78%) e oxigênio (21%)."
   },
   {
     id: 13,
-    question: "Qual povo indígena teve o primeiro contato com os portugueses em 1500?",
-    options: ["Guaranis", "Tupinambás", "Tupiniquins", "Aimorés"],
-    correctAnswer: 2,
-    explanation: "Os Tupiniquins foram os primeiros indígenas a ter contato com a expedição de Cabral na Bahia."
+    question: "Quantas luas conhecidas Júpiter possui?",
+    options: ["12", "35", "67", "95"],
+    correctAnswer: 3,
+    explanation: "Júpiter possui 95 luas conhecidas, sendo o planeta com mais satélites naturais do Sistema Solar."
   },
   {
     id: 14,
-    question: "Onde Dom Pedro I proclamou a Independência do Brasil?",
-    options: ["Rio de Janeiro", "São Paulo (Ipiranga)", "Salvador", "Ouro Preto"],
+    question: "Qual é a duração de um dia em Marte?",
+    options: ["20 horas", "24 horas e 37 minutos", "30 horas", "48 horas"],
     correctAnswer: 1,
-    explanation: "A Independência foi proclamada às margens do rio Ipiranga, em São Paulo."
+    explanation: "Um dia em Marte (chamado de sol) dura 24 horas e 37 minutos, muito similar a um dia terrestre."
   },
   {
     id: 15,
-    question: "O que aconteceu com a família imperial após a Proclamação da República?",
-    options: ["Foram presos", "Foram exilados para a Europa", "Permaneceram no Brasil", "Foram executados"],
-    correctAnswer: 1,
-    explanation: "A família imperial foi exilada para a Europa, onde Dom Pedro II viveu até sua morte em Paris, em 1891."
+    question: "Qual é a idade aproximada da Terra?",
+    options: ["1 bilhão de anos", "2,5 bilhões de anos", "4,5 bilhões de anos", "10 bilhões de anos"],
+    correctAnswer: 2,
+    explanation: "A Terra tem aproximadamente 4,5 bilhões de anos, formada junto com o resto do Sistema Solar."
   }
 ];
 
